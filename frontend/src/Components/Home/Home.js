@@ -5,13 +5,13 @@ import Widgets from '../Widgets/Widgets'
 import "./Home.css"
 
 function Home() {
-    return ( 
-        <div className="home">
-            <Sidebar />
-            <Feed />
-            <Widgets></Widgets>
-        </div>
-     );
+  return ( 
+    <div className="home">
+      <Sidebar />
+      <Feed />
+      <Widgets />
+    </div>
+  );
 }
 
 export default Home;
